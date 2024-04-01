@@ -1,15 +1,8 @@
 .main-container {
     display: grid;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 1fr 5fr 10fr;
+    height:100vh;
 
-}
-
-.search-options {
-    display: flex;
-    grid-row: 1;
-    height: 100px;
-    align-items: center;
-    justify-content: flex-end;
 }
 
 a {
@@ -18,12 +11,28 @@ a {
     color: inherit;
 }
 
+.search-options {
+    display: flex;
+    grid-row: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .search-options > a {
     margin: 1rem;
 }
 
-.search-container {
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     grid-row: 2;
-    align-items: center;
-    height: auto;
+    font-size: 3rem;
+}
+
+.search-container {
+    display: flex;
+    grid-row: 3;
+    align-items:flex-start;
+    justify-content: center;
 }
