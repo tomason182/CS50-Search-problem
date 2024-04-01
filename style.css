@@ -12,6 +12,12 @@
     justify-content: flex-end;
 }
 
+a {
+    appearance: none;
+    text-decoration: none;
+    color: inherit;
+}
+
 .search-options > a {
     margin: 1rem;
 }
