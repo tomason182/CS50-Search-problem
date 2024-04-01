@@ -1,0 +1,23 @@
+.main-container {
+    display: grid;
+    grid-template-rows: 1fr auto;
+
+}
+
+.search-options {
+    display: flex;
+    grid-row: 1;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-options > a {
+    margin: 1rem;
+}
+
+.search-container {
+    grid-row: 2;
+    align-items: center;
+    height: auto;
+}
