@@ -2,7 +2,6 @@
     display: grid;
     grid-template-rows: 1fr 5fr 10fr;
     height:100vh;
-
 }
 
 a {
@@ -35,4 +34,27 @@ a {
     grid-row: 3;
     align-items:flex-start;
     justify-content: center;
+}
+
+input {
+    appearance: none;
+    border: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+input[type="text"]:focus {
+    appearance: none;
+    outline: none;
+    text-decoration:none;
+    color: inherit;
+}
+
+#search-box {
+    display: flex;
+    width: 560px;
+    height: 41px;
+    border-radius: 2rem;
+    box-shadow: none;
+    border: 1px solid grey;
 }
