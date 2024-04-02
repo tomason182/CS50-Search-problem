@@ -25,7 +25,12 @@ body {
 }
 
 .navigator-container {
-    
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 a {
