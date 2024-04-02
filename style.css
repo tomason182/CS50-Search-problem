@@ -1,3 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-width: 400px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    box-sizing: content-box;
+    display: block;
+    float: none;
+    line-height: normal;
+    position: static;
+    z-index: auto;
+}
+
 .main-container {
     display: grid;
     grid-template-rows: 1fr 5fr 10fr;
