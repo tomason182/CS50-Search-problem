@@ -14,9 +14,18 @@ body {
 }
 
 .main-container {
-    display: grid;
-    grid-template-rows: 1fr 5fr 10fr;
-    height:100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: content-box;
+    float: none;
+    line-height: normal;
+    position: static;
+    z-index: auto;
+}
+
+.navigator-container {
+    
 }
 
 a {
