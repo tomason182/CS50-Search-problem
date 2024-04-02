@@ -51,6 +51,12 @@ body {
     justify-content: flex-end;
 }
 
+a {
+    appearance: none;
+    text-decoration: none;
+    color: inherit;
+}
+
 .navigator-items > a {
     margin: 12px;
     vertical-align: middle;
@@ -63,29 +69,24 @@ body {
     text-decoration: underline;
 } 
 
-a {
-    appearance: none;
-    text-decoration: none;
-    color: inherit;
-}
 
-.search-options {
-    display: flex;
-    grid-row: 1;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.search-options > a {
-    margin: 1rem;
-}
-
-.brand {
+.brand-container {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    grid-row: 2;
-    font-size: 3rem;
+    align-items: center;
+    min-height: 92px;
+}
+
+.logo-container {
+    margin: 0 auto;
+}
+
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
 }
 
 .search-container {
