@@ -30,7 +30,9 @@ a {
 }
 
 .search-container {
-    display: flex;
+    display: block;
+    box-sizing:content-box;
+    z-index: auto;
     grid-row: 3;
     align-items:flex-start;
     justify-content: center;
@@ -52,8 +54,9 @@ input[type="text"]:focus {
 
 #search-box {
     display: flex;
-    width: 560px;
-    height: 41px;
+    min-height: 44px;
+    max-width: 584px;
+    width: auto;
     border-radius: 2rem;
     box-shadow: none;
     border: 1px solid grey;
