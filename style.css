@@ -125,3 +125,20 @@ input[type="text"]:focus {
     color: inherit;
 }
 
+.button {
+    appearance: none;
+    border: 1px solid #0066ff;
+    color: #0066ff;
+    background-color: #fff;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    width: 130px;
+    height: 44px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0066ff;
+    color: #fff;
+    font-weight: 700;
+}
