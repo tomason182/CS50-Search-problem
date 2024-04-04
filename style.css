@@ -35,7 +35,7 @@ body {
 .navigator-container {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     padding: 6px;
     margin-right: 32px;
     height: 60px;
@@ -141,4 +141,24 @@ input[type="text"]:focus {
     background-color: #0066ff;
     color: #fff;
     font-weight: 700;
+}
+
+.logo-small {
+    margin: 10px;
+    width: 74px;
+    height: auto;
+}
+
+.logo-small > img {
+    width: 74px;
+    height: auto;
+}
+
+.advance-search {
+    padding: 25px 35px;
+    font-family: Arial, sans-serif;
+    color: #d93025;
+    font-weight:100;
+    font-size: 20px;
+    border-bottom: 1px solid #dee2e6;
 }
