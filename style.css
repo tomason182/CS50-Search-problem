@@ -162,3 +162,12 @@ input[type="text"]:focus {
     font-size: 20px;
     border-bottom: 1px solid #dee2e6;
 }
+
+.advance-search-form {
+    display: flex;
+    width: 55vw;
+}
+
+.blank-space{
+    flex-grow: 1;
+}
