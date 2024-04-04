@@ -170,27 +170,29 @@ input[type="text"]:focus {
     padding: 35px
 }
 
+.main-form-container {
+    display: grid;
+    grid-template-columns: 1fr, 3fr, 1fr;
+}
+
 .advance-search-form > form {
     width: 100%;
 }
 
-.top-form-container {
-    display: flex;
-    width: 100%;
-    height: auto;
-}
 
 .blank-space{
-    flex-grow: 1;
+    grid-column: 2;
 }
 
 .form-title {
+    grid-column: 1
     font-size:16px;
     font-weight: 400;
     color: #333;  
 }
 
 .to-do {
+    grid-column: 3;
     font-size: 13px;
     font-weight:700;
     color: #777;
